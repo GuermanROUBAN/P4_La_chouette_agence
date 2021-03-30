@@ -3,26 +3,23 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>La chouette agence</title>
-	<meta name="keywords"
-		content="Agence web lyon, création site web Lyon, création site internet lyon, site internet, agence web, site web, web design, agence web design, agence digitale, création d’un site internet, création d'un site web, refonte d'un site web, conception d'un site, seo, référencement naturel, stratégie webmarketing, experts du digital, équipe de graphistes, transformation digitale, visibilité moteurs de recherche, rafraichissement site web, design web à la mode, création plateforme digitale, magasine en ligne"/>
-		<meta name="description" content="La chouette agence est une entreprise de web design à Lyon.
-		Depuis 2010 elle aide les Marques, PME, ETI, et Grands Comptes de tout secteurs, implantés dans la région lyonnaise mais sur le territoire national, dans la mise en place d’une transformation digitale. 
-		Que vous souhaitiez créer un nouveau site internet ou optimiser un site web existant, notre équipe d’experts du digital composée de graphistes talentueux, sera vous consulter en stratégie webmarketing. 
-		En fonction de vos cibles et de vos ressources nous pouvons mettre en place une communication digitale personnalisée, analyser vos freins potentiels et définir vos objectifs en matière de référencement SEO, SEA, display, réseaux sociaux, afin de gagner en visibilité et attractivité sur Internet.
-		Beaucoup de nos clients tels que des entrepreneurs, journaux, photographes, bloggeurs, agence de mariages, restaurants, nous ont fait confiance, et apprécient la qualité des designs, que nous avons réalisé, pour mettre en valeur leur activité.
-		Cliquez sur le lien et demandez un devis. Votre nouveau profile digitale commence ici." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<title>La chouette agence</title>
+	<meta name="description" content="La chouette agence est une entreprise de web design à Lyon.
+			Depuis 2010 elle aide les Marques, PME, ETI, et Grands Comptes de tout secteurs, implantés dans la région lyonnaise mais sur le territoire national, dans la mise en place d’une transformation digitale. 
+			Que vous souhaitiez créer un nouveau site internet ou optimiser un site web existant, notre équipe d’experts du digital composée de graphistes talentueux, sera vous consulter en stratégie webmarketing. 
+			En fonction de vos cibles et de vos ressources nous pouvons mettre en place une communication digitale personnalisée, analyser vos freins potentiels et définir vos objectifs en matière de référencement SEO, SEA, display, réseaux sociaux, afin de gagner en visibilité et attractivité sur Internet.
+			Beaucoup de nos clients tels que des entrepreneurs, journaux, photographes, bloggeurs, agence de mariages, restaurants, nous ont fait confiance, et apprécient la qualité des designs, que nous avons réalisé, pour mettre en valeur leur activité.
+			Cliquez sur le lien et demandez un devis. Votre nouveau profile digitale commence ici." />
+
+
+	<link rel="icon" type="image/png" href="favicon.jpg" />
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
-	<!-- Analytics -->
-
-	<!-- Analytics END -->
 
 </head>
 
@@ -36,7 +33,7 @@
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
-							alt="logo Agence webdesign Lyon meilleure agence" height="40" /></a>
+								alt="logo Agence webdesign Lyon meilleure agence" height="40" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
 							data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -81,36 +78,40 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-							<div class="form-group">
-								<label>
-									Nom
-								</label>
-								<input id="name" class="form-control" required />
-							</div>
-							<div class="form-group">
-								<label>
-									Adresse email
-								</label>
-								<input id="email" class="form-control" type="email" required />
-							</div>
-							<div class="form-group">
-								<label>
-									Comment nous avez-vous connu ?
-								</label>
-								<input class="form-control" type="email" required id="input_504" />
-							</div>
-							<div class="form-group">
-								<label>
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-							</div>
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-								Envoyer
-							</button>
+						<form action="www.google.fr" method="POST">
+							<fieldset>
+								<legend>Merci de bien vouloir remplir notre formulaire</legend>
+								<div class="form-group">
+									<label for="name">Nom</label> <abbr title="Merci de saisir ici votre nom">*</abbr>
+									<input type="text" id="name" name="user_name" class="form-control" required>
+								</div>
+
+								<div class="form-group">
+									<label for="email">Votre adresse e-mail</label>
+									<abbr title="ex: utilisateur@internet.com">*</abbr>
+									<input type="email" id="email" name="user_email" class="form-control" required />
+								</div>
+
+								<div class="form-group">
+									<label for="question">Comment nous avez-vous connu ?</label> <abbr
+										title="ex: presse, web, salons professionnels, bouche à oreilles">*</abbr>
+									<input type="text" id="question" name="user_question" class="form-control" required />
+								</div>
+
+								<div class="form-group">
+									<label for="devis">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+									<abbr title="Parlez nous de vous">*</abbr>
+									<textarea id="devis" name="user_devis" class="form-control" rows="4" cols="50"
+										required></textarea>
+								</div>
+							</fieldset>
 						</form>
+
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							Envoyer
+						</button>
 					</div>
+
 					<div class="col-sm-6">
 						<p>
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au
